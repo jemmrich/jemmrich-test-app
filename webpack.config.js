@@ -39,6 +39,6 @@ module.exports = {
     //host: 'mygame.com',
     //port: 80,
     hot: false,
-    liveReload: true,
+    liveReload: false,
   },
 }
