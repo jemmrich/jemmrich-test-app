@@ -12,10 +12,10 @@ module.exports = {
     maxAssetSize: 1024000
   },
   devServer: {
-    allowedHosts: [
-      'mygame.com',
-      'gsx.mygame.com',
-    ],
+    //allowedHosts: [
+    //  'mygame.com',
+    //  'gsx.mygame.com',
+    //],
     static: [
       {
         directory: './',
@@ -36,7 +36,7 @@ module.exports = {
       writeToDisk: true,
    }, 
     compress: true,
-    host: 'mygame.com',
+    //host: 'mygame.com',
     port: 8080,
     hot: false,
     liveReload: true,
