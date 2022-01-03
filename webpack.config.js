@@ -37,7 +37,7 @@ module.exports = {
    }, 
     compress: true,
     //host: 'mygame.com',
-    port: 8080,
+    port: 80,
     hot: false,
     liveReload: true,
   },
